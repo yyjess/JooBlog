@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-zh">
 
-  {% include head.html %}
+<head>
+    <meta charset="utf-8">
+	<title>Chez Joooo!</title>
+</head>
 
-    <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    </body>
+<body bgcolor="#FFE4B5">
+  <header>
+    <h1> Joo's Blog </h1>
+	<nav>
+	  <ul>
+	    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+	    <li><a href="{{site.baseurl}}/news.html">News</a></li>
+	  </ul>
+	</nav>
+  </header>
+  
+  {{ content }}
+ 
+</body>
 </html>

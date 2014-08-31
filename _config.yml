@@ -1,12 +1,7 @@
-# Site settings
-title: CHEZ Joo
-email: yyjess@gmail.com
-description: "Joo is a handsome teenager cat starting to know about life and love. "
-baseurl: ""
-url: "http://www.yyjess.org"
+# Build settings
+markdown: redcarpet
+exclude: ['README.md']
 #twitter_username: 
 #github_username:  
 
-# Build settings
-markdown: redcarpet
-permalink: pretty
+
